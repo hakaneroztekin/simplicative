@@ -8,6 +8,7 @@ body {
   background-color: #f3f3f3;
   color: #181717;
   margin: auto auto 64px auto;
+    width: 90%;
 }
 
 
@@ -73,7 +74,6 @@ a {
   text-decoration: none;
   margin: 0 0 0 32px;
   transition: color 0.5s;
-  cursor: url("https://makifkarasu-draft.superhi.com/cursorh.png"), auto !important;
 }
 
 a:hover, a.selected{
@@ -398,16 +398,24 @@ footer a {
 
 
 @media (max-width: 1248px) {
+    header {
+        margin: 0 !important;
+    }
 section.project {
         display: flex;
 		flex-direction: column-reverse;
 }
     
     section.project div {
-        margin: 15px;
+        margin: 15px !important;
     }
     header,nav, section div {
-        margin: 15px;
+        margin: 15px !important;
+    }
+    footer {
+        font-size: 13px !important;
+        margin-left: 3px;
+        margin-right: 3px;
     }
     
  body {
@@ -453,10 +461,6 @@ section.project {
 
 
 @media (max-width: 500px) {
-    section.project div {
-        
-    }
-  
   body {
     margin:  24px 24px 24px 24px;
     }
