@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500&display=swap');
+
+body {
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 1.5;
+
+  background-color: #f3f3f3;
+  color: #181717;
+  margin: auto auto 64px auto;
+  width: 1120px;
+  cursor: url('https://makifkarasu-draft.superhi.com/cursor.png'), auto !important;
+}
+
+header, nav {
+  
+  display: flex;
+  align-items: center;
+  margin: 52px 0 52px 0;
+  justify-content: space-between;
+ 
+
+}
+
+nav {
+ 
+  display: flex;
+  font-family: DM Sans;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.3px;
+
+}
+
+h1,footer {
+  font-family: DM Sans;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.3px;
+}
