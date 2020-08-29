@@ -179,6 +179,7 @@ section.project img {
   grid-column: 7 / span 12;
   opacity: 0.8;
   border-radius: 20px;
+  width: 100%;
 }
 
 
